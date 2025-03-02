@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header class="header">
-        <p class="header__logo">QuizApp</p>
-        <nav class="nav">
-            <button class="burger-btn">
-                <div class="burger-btn__box">
-                    <div class="burger-btn__bars"></div>
-                </div>
-            </button>
-
-        </nav>
-    </header>
-    <main class="main"></main>
+    <div class="app">
+        <div class="quiz">
+            <p class="quiz__title">Simple Quiz</p>
+            <p class="quiz__question">1. Question Lorem ipsum dolor sit amet.</p>
+            <div class="quiz__answers-box">
+                <button class="quiz__answer">Answer 1</button>
+                <button class="quiz__answer">Answer 2</button>
+                <button class="quiz__answer">Answer 3</button>
+                <button class="quiz__answer">Answer 4</button>
+            </div>
+            <button class="quiz__next-btn">Next</button>
+        </div>
+        <div class="app__timer"></div>
+        <div class="quiz__score-box disabled">
+            <p class="quiz__title">Simple Quiz</p>
+            <p class="quiz__score">Liczba punktów: <span class="points"></span>/<span class="question-number">3</span></p>
+            <button class="quiz__next-game-btn">Next game</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
