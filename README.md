@@ -1,1 +1,1 @@
-[text](https://c25a3.github.io/quiz-API/)
+[QUIZ](https://c25a3.github.io/quiz-API/)
